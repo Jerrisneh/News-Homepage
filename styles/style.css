@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 20px;
+}
+
+.nav-bar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+align-items: center;
+
+}
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
