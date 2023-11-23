@@ -19,3 +19,34 @@ align-items: center;
     display: flex;
     gap: 50px;
 }
+.main-content{
+    display: flex;
+}
+.left{
+    display: grid;
+    grid-template-columns: 1/8;
+}
+.main-img img{
+    height: 385px;
+}
+.right{
+    display: grid;
+    grid-template-columns:8/-1 ;
+    background-color: hsl(236, 13%, 42%);
+    padding: 20px;
+    width: 350px;
+}
+.hero{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 40px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.card-1, .card-2, .card-3{
+    display: flex;
+}
